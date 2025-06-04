@@ -11,7 +11,7 @@ export class CartSerice {
     }
 
     // Aumentar el contador en 1 (o por una cantidad específica)
-    public aumentar(cantidad: number = 1): void {
+    public aumentar(cantidad: number = 2): void {
         this.valor += cantidad;
     }
 
