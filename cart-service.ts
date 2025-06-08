@@ -17,6 +17,7 @@ export class CartSerice {
 
     // Disminuir el contador en 1 (o por una cantidad específica)
     public disminuir(cantidad: number = 1): void {
+        if (this.valor == 0) return;
         this.valor -= cantidad;
     }
 
